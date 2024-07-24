@@ -36,4 +36,20 @@ str="hello world"
 b=str[0].upper()+str[1:-1]+str[-1].upper()
 print(b)
 --------------------------------------------->
+#python program to count similar characters in  two strings 
+str1="teja"
+str2="i am a human god in this universe"
+count=0
+s=set()
+c=min(len(str1),len(str2))
+
+for i in range (0 ,len(str1)):
+    for j in range (0,len(str2)):
+        if str1[i] not in s:
+            if(str1[i]==str2[j]):
+                 count=count+1
+                 s.add(str1[i]) 
+print(count)
+------------------------------------------------>
+
 
