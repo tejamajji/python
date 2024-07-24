@@ -31,3 +31,9 @@ if len(s)==len(vowels):
 else:
     print("not accepted")
   ---------------------------------------->
+#python program to make first and last letter capital
+str="hello world"
+b=str[0].upper()+str[1:-1]+str[-1].upper()
+print(b)
+--------------------------------------------->
+
