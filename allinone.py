@@ -51,5 +51,14 @@ for i in range (0 ,len(str1)):
                  s.add(str1[i]) 
 print(count)
 ------------------------------------------------>
+# enumeration of do while loop:
+def do_while(x):
+    print(x)
+i=int(input("enter the number :"))
+print(i)
+while i>0:
+    do_while(i)
+    i=i-1
+----------------------------------------------------->
 
 
